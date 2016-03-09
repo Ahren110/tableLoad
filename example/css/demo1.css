@@ -1,0 +1,36 @@
+body,div,table,tbody,thead,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+#table-wrap {
+    border: 1px solid;
+    width: 600px;
+    height: 300px;
+    overflow: auto;
+}
+
+#table-wrap table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th,
+td {
+    padding: 15px 50px;
+    border: 1px solid;
+}
+
+th {
+    background-color: #009966;
+    color: white;
+    border: 1px solid black;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #eee;
+}
+
+p:first-letter {
+    color: red
+}
