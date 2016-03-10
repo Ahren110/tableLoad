@@ -90,6 +90,3 @@ var dealTable = (function() {
 	};
 
 })();
-
-
-dealTable.lazyLoad('table-wrap', 100);
